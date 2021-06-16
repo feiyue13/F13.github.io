@@ -1,0 +1,167 @@
+html,
+body,
+header,
+#intro,#intro1{
+    height: 100%;
+}
+
+#intro {
+    background: url("t2.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+    -moz-background-size: cover;    /* 针对Firefox浏览器 */
+    -o-background-size: cover;      /* 针对Operallq */
+    background-size: cover;         /* 通用 */
+}
+#intro1 {
+  background: url("http://n.sinaimg.cn/sinacn20121/212/w2048h1364/20190910/126e-iekuaqt6063531.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+  -moz-background-size: cover;    /* 针对Firefox浏览器 */
+  -o-background-size: cover;      /* 针对Operallq */
+  background-size: cover;         /* 通用 */
+}
+#about{
+  background: url("folklore.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+  -moz-background-size: cover;    /* 针对Firefox浏览器 */
+  -o-background-size: cover;      /* 针对Operallq */
+  background-size: cover;         /* 通用 */
+}
+#album{
+  background: url("evermore.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+  -moz-background-size: cover;    /* 针对Firefox浏览器 */
+  -o-background-size: cover;      /* 针对Operallq */
+  background-size: cover;         /* 通用 */
+}
+#vedio
+{
+  background: url("last.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+  -moz-background-size: cover;    /* 针对Firefox浏览器 */
+  -o-background-size: cover;      /* 针对Operallq */
+  background-size: cover;         /* 通用 */
+}
+.top-nav-collapse {
+  background-color: #24355C;
+}
+.view {
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse ,.page-footer{
+  background-color: #563e91 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #563e91 !important;
+  }
+}
+
+.rgba-gradient {
+  background: rgba(29, 7, 61, 0.6);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.streak.streak-photo {
+  background-attachment: fixed;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#x1{background-image: url("speaknow.jpg");}
+#x2{background-image: url("red.jpg");}
+#x3{background-image: url("1989.jpg");}
+#x4{background-image: url("reputation.jpg");}
+#x5{background-image: url("album.jpg");}
+
+
+
+
+.main{
+  height: 100%;
+  width: 100%;
+}
+
+.one{
+  height: 1080px; /*Here should be 100% value but it doesn't work and i know why*/
+  width: 20%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  background-position: center;    
+}
+
+img.menuImg{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*cards*/
+.title
+{
+  padding: 30px 0;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 40px;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+}
+
+.info
+{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 50px 30px 0px;
+  font-family: "Arial", sans-serif;
+}
+
+.infoTitle
+{
+  font-size: 20px;
+  padding: 30px 0;
+}
+
+.infoText
+{
+  font-size: 16px;
+}
+
+.more
+{
+  padding: 30px 0 10px;
+  text-align: center;
+  cursor: pointer;
+}
